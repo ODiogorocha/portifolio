@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho{
+  background-color: purple;
+  border-color:white;
+  display: flex;
+  gap:80px;
+  flex-direction: center;
+  padding: 1% 0% 0% 15%;
+}
+.cabecalho_menu{
+  color:white;
+  font-family: 'montserraf',sans-serif;
+  font-size:24px;
+  font-weight: 600;
+}
+
+body{
+  background-color: black;
+}
+h1{
+  color: white;
+  display:flax;
+  flex-direction: column;
+  gap:40px;
+  margin-left: 500px;
+  padding: 0;
+}
+
+.primeiro_paragrafo{
+  color: white;
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 500px;
+}
+
+.segundo_paragrafo{
+  color: white;
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 500px;
+}
+img{
+  width: 400px;
+  height: 400px;
+}
+
+footer {
+  background-color: purple;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  height: 32.73px;
+  border:solid;
+  border-color:white;
+}
